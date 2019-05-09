@@ -1,0 +1,5 @@
+applications:
+- name: springbooteureka
+#random-route: true
+buildpack: java_buildpack
+path: target/springbooteureka-0.0.1-SNAPSHOT.jar
