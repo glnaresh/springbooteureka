@@ -1,6 +1,6 @@
 eureka:
-  instance:
-    hostname: localhost
+  #instance:
+   # hostname: localhost
   client:  # Not a client, don't register with yourself (unless running
            # multiple discovery servers for redundancy)
     registerWithEureka: false
